@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: grey;
+}
+
+.content {
+    background-color: rgb(60, 60, 68);
+    width: 60%;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: white;
+    width: 75%;
+    height: 700px;
+    border-radius: 5px;
+}
+
+.title {
+    color: rgb(60, 60, 68);
+    text-align: center;
+    margin-top: 5em;
+}
+
+hr {
+    width: 80%;
+    color: lightgrey;
+}
+
+input {
+    width: 80%;
+    height: 4em;
+    float: right;
+    margin: 3em 6em 3em 0;
+}
+
+label {
+    display: inline-block;
+}
+
+.email {
+    position: relative;
+}
+
+.password {
+    position: relative;
+}
+
+.confirm {
+    position: relative;
+}
+.email-label {
+    position: absolute;
+    left: 5em;
+    top: 1.5em;
+    background-color: rgba(255,255,255,.8);
+    border: 2px solid rgba(255,255,255,.8);
+    color: grey;
+}
+
+.password-label {
+    position: absolute;
+    left: 5em;
+    top: 8.8em;
+    background-color: rgba(255,255,255,.8);
+    border: 2px solid rgba(255,255,255,.8);
+    color: grey;
+}
+
+.confirm-password-label {
+    position: absolute;
+    left: 5em;
+    top: 16em;
+    background-color: rgba(255,255,255,.8);
+    border: 2px solid rgba(255,255,255,.8);
+    color: grey;
+}
+
+.button {
+    width: 80%;
+    margin: 0 auto;
+}
+
+button {
+    width: 100%;
+    height: 3em;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(127, 204, 127);
+    border-radius: 4px;
+    text-shadow: 1px 1px rgb(91, 143, 91);
+    box-shadow: 2px 3px rgb(91, 143, 91);
+    margin-top: 2em;
+}
